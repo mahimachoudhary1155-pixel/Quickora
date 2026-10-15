@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quickora - Groceries at Lightning Speed</title>
+
+    <link rel="stylesheet" href="./styles1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement">
+        <p>⚡ Your everyday essentials, delivered in minutes!</p>
+        <span>Freshness is just a click away.</span>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <span class="logo-icon">q.</span>
+            <span>quickora<span class="logo-dot">.</span></span>
+        </div>
+
+        <div class="location">
+            <span class="location-icon">📍</span>
+            <div>
+                <small>Delivering to</small>
+                <strong>Jaipur, Rajasthan ▾</strong>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <span>⌕</span>
+            <input type="text" placeholder="Search for milk, snacks, fruits...">
+            <span class="search-shortcut">⌘ K</span>
+        </div>
+
+        <a href="#categories" class="header-link">Categories</a>
+        <a href="#products" class="header-link">Shop</a>
+
+        <a href="#products" class="cart-button">
+            <span>🛒</span> My Cart
+        </a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero-content">
+                <div class="hero-label">
+                    <span class="live-dot"></span>
+                    YOUR NEIGHBOURHOOD, DELIVERED
+                </div>
+
+                <h1>
+                    Good things.<br>
+                    <span>Great speed.</span>
+                </h1>
+
+                <p class="hero-description">
+                    From your morning chai to midnight cravings,
+                    everything you love is just a few clicks away.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#products" class="primary-button">
+                        Start shopping <span>↗</span>
+                    </a>
+                    <a href="#categories" class="secondary-button">
+                        Explore categories
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>10 min</strong>
+                        <small>Lightning fast</small>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div>
+                        <strong>1000+</strong>
+                        <small>Everyday essentials</small>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div>
+                        <strong>100%</strong>
+                        <small>Everyday convenience</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="sun-shape"></div>
+
+                <div class="floating-card floating-top">
+                    <span>🥑</span>
+                    <div>
+                        <strong>Farm fresh</strong>
+                        <small>Picked with care</small>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=85"
+                        alt="Fresh colourful fruits and vegetables"
+                    >
+                </div>
+
+                <div class="delivery-badge">
+                    <span class="delivery-icon">⚡</span>
+                    <div>
+                        <strong>Fast delivery</strong>
+                        <small>Right to your door</small>
+                    </div>
+                </div>
+
+                <div class="floating-circle">FRESH<br>EVERY DAY</div>
+            </div>
+
+        </section>
+
+        <!-- Service Highlights -->
+        <section class="service-strip">
+            <div class="service-item">
+                <span>🥬</span>
+                <div>
+                    <strong>Farm fresh</strong>
+                    <small>Quality you can taste</small>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <span>🚀</span>
+                <div>
+                    <strong>Quick delivery</strong>
+                    <small>More time for you</small>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <span>💚</span>
+                <div>
+                    <strong>Easy on pockets</strong>
+                    <small>Deals worth loving</small>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <span>🛍️</span>
+                <div>
+                    <strong>All in one place</strong>
+                    <small>Daily needs sorted</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="section categories-section" id="categories">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">THE GOOD STUFF</span>
+                    <h2>What's on your list?</h2>
+                    <p>Little things that make every day better.</p>
+                </div>
+                <a href="#products" class="text-link">View all categories ↗</a>
+            </div>
+
+            <div class="category-grid">
+                <a href="#products" class="category-card category-green">
+                    <span class="category-emoji">🥦</span>
+                    <h3>Fresh Produce</h3>
+                    <p>Garden goodness</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#products" class="category-card category-yellow">
+                    <span class="category-emoji">🥛</span>
+                    <h3>Dairy & Eggs</h3>
+                    <p>Fresh every day</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#products" class="category-card category-pink">
+                    <span class="category-emoji">🍪</span>
+                    <h3>Snacks & Munchies</h3>
+                    <p>Happy little bites</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#products" class="category-card category-blue">
+                    <span class="category-emoji">🥤</span>
+                    <h3>Drinks & Juices</h3>
+                    <p>Sip something good</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#products" class="category-card category-purple">
+                    <span class="category-emoji">🧴</span>
+                    <h3>Personal Care</h3>
+                    <p>Your daily ritual</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+
+                <a href="#products" class="category-card category-orange">
+                    <span class="category-emoji">🍞</span>
+                    <h3>Bakery</h3>
+                    <p>Warm & wonderful</p>
+                    <span class="category-arrow">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Special Offer -->
+        <section class="offer-banner">
+            <div class="offer-content">
+                <span class="offer-label">A LITTLE TREAT FOR YOU</span>
+                <h2>Your first basket.<br><span>Our little gift.</span></h2>
+                <p>Get 20% OFF your first order. Good food, better prices.</p>
+                <a href="#products" class="offer-button">Shop the offer ↗</a>
+                <small class="offer-note">*Demo offer for this website design.</small>
+            </div>
+
+            <div class="offer-art">
+                <div class="offer-circle"></div>
+                <span class="offer-fruit fruit-one">🍊</span>
+                <span class="offer-fruit fruit-two">🍓</span>
+                <span class="offer-fruit fruit-three">🥑</span>
+                <div class="discount-sticker">
+                    <strong>20%</strong>
+                    <span>OFF</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="section products-section" id="products">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">HANDPICKED FOR YOU</span>
+                    <h2>Your daily favourites.</h2>
+                    <p>The little essentials you never want to run out of.</p>
+                </div>
+                <a href="#products" class="text-link">Explore products ↗</a>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+                    <div class="product-image product-bg-green">
+                        <span class="discount-tag">15% OFF</span>
+                        <img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=500&q=80" alt="Fresh red apples">
+                        <span class="heart">♡</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">FRESH PRODUCE</span>
+                        <h3>Fresh Red Apples</h3>
+                        <p class="product-quantity">4 pieces · Approx. 500 g</p>
+                        <div class="product-bottom">
+                            <div><strong>₹99</strong> <del>₹119</del></div>
+                            <button class="add-button">+ ADD</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image product-bg-yellow">
+                        <span class="discount-tag">BESTSELLER</span>
+                        <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=500&q=80" alt="Fresh milk in a glass">
+                        <span class="heart">♡</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">DAIRY & EGGS</span>
+                        <h3>Fresh Farm Milk</h3>
+                        <p class="product-quantity">500 ml · Full cream</p>
+                        <div class="product-bottom">
+                            <div><strong>₹34</strong> <del>₹38</del></div>
+                            <button class="add-button">+ ADD</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image product-bg-pink">
+                        <span class="discount-tag">NEW DROP</span>
+                        <img src="https://images.unsplash.com/photo-1621939514649-280e2aa1f2b1?auto=format&fit=crop&w=500&q=80" alt="Packaged snacks">
+                        <span class="heart">♡</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">SNACKS</span>
+                        <h3>Crunchy Snack Mix</h3>
+                        <p class="product-quantity">Pack of munchies · 150 g</p>
+                        <div class="product-bottom">
+                            <div><strong>₹49</strong> <del>₹59</del></div>
+                            <button class="add-button">+ ADD</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image product-bg-blue">
+                        <span class="discount-tag">10% OFF</span>
+                        <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=500&q=80" alt="Fresh orange juice">
+                        <span class="heart">♡</span>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">DRINKS</span>
+                        <h3>Orange Juice</h3>
+                        <p class="product-quantity">Fresh fruit drink · 250 ml</p>
+                        <div class="product-bottom">
+                            <div><strong>₹54</strong> <del>₹60</del></div>
+                            <button class="add-button">+ ADD</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Lifestyle Banner -->
+        <section class="lifestyle-banner">
+            <div class="lifestyle-text">
+                <span class="eyebrow">LESS RUNNING AROUND</span>
+                <h2>More living.<br><span>Less shopping.</span></h2>
+                <p>Your time is precious. Let the everyday stuff take care of itself.</p>
+                <a href="#categories" class="lifestyle-link">Make life easier ↗</a>
+            </div>
+            <div class="lifestyle-image">
+                <img src="https://images.unsplash.com/photo-1543168256-418811576931?auto=format&fit=crop&w=1000&q=85" alt="A colourful collection of everyday shopping essentials">
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-icon">✳</div>
+            <div class="newsletter-text">
+                <h2>Good deals. No drama.</h2>
+                <p>Our latest offers, straight to your inbox.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="button">Count me in ↗</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <div class="logo footer-logo">
+                    <span class="logo-icon">q.</span>
+                    <span>quickora<span class="logo-dot">.</span></span>
+                </div>
+                <p>Making everyday shopping<br>a little more extraordinary.</p>
+                <div class="social-links">
+                    <a href="#footer">Instagram</a>
+                    <a href="#footer">Facebook</a>
+                    <a href="#footer">Pinterest</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <a href="#categories">Categories</a>
+                <a href="#products">Popular products</a>
+                <a href="#products">Today's deals</a>
+                <a href="#products">New arrivals</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Quickora</h4>
+                <a href="#footer">About us</a>
+                <a href="#footer">Our promise</a>
+                <a href="#footer">Careers</a>
+                <a href="#footer">Contact</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Need help?</h4>
+                <a href="#footer">FAQs</a>
+                <a href="#footer">Delivery information</a>
+                <a href="#footer">Return policy</a>
+                <a href="#footer">Privacy policy</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom" id="footer">
+            <p>© 2026 Quickora. Made with 💚 for everyday living.</p>
+            <p>Designed for good days & quick deliveries.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
